@@ -1,65 +1,34 @@
 import Image from "next/image";
 
-export function Card1() {
-    return (
-        <>
-        <section className="h-fit w-fit p-3 border border-zinc-500 rounded-lg flex flex-col items-center gap-2">
-            <Image 
-                src={'/velha.jpg'} 
-                height={200} width={200} 
-                alt="Velha armada" 
-                className="rounded-md"
-            />
-            <p>Velha armada</p>
-        </section>
-        </>
-    )
+interface Props {
+    url: string
+    alt: string
+    text: string
 }
 
-export function Card2() {
-    return (
-        <>
-        <section className="h-fit w-fit p-3 border border-zinc-500 rounded-lg flex flex-col items-center gap-2">
-            <Image 
-                src={'/tortuga.jpg'} 
-                height={200} width={200} 
-                alt="Tartaruga fofa" 
-                className="rounded-md"
-            />
-            <p>Tartaruga fofa</p>
-        </section>
-        </>
-    )
-}
+export default function Cards() {
 
-export function Card3() {
-    return (
-        <>
-        <section className="h-fit w-fit p-3 border border-zinc-500 rounded-lg flex flex-col items-center gap-2">
-            <Image 
-                src={'/moto.jpg'} 
-                height={200} width={200} 
-                alt="Moto irada" 
-                className="rounded-md"
-            />
-            <p>Moto irada</p>
-        </section>
-        </>
-    )
-}
+    const images = [
+        {url: '/moto.jpg', alt:"Moto irada", text: "Moto irada"},
+        {url: '/velha.jpg', alt:"Velha armada", text: "Velha armada"},
+        {url: '/tortuga.jpg', alt:"Tartaruga fofa", text: "Tartaruga fofa"}
+    ]
 
-export function Card4() {
     return (
         <>
-        <section className="h-fit w-fit p-3 border border-zinc-500 rounded-lg flex flex-col items-center gap-2">
-            <Image 
-                src={'/paraguaio.jpg'} 
-                height={200} width={200} 
-                alt="Paraguaio de lado" 
-                className="rounded-md"
-            />
-            <p>Paraguaio de lado</p>
-        </section>
+        <div className="flex gap-5">
+        {images.map((i) => (
+            <section className="h-fit w-fit p-3 border border-zinc-500 rounded-lg flex flex-col items-center gap-2">
+                <Image 
+                    src={i.url} 
+                    height={200} width={200} 
+                    alt={i.alt} 
+                    className="rounded-md"
+                />
+                <p>{i.text}</p>
+            </section>
+        ))}
+        </div>
         </>
     )
 }

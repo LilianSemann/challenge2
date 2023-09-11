@@ -2,6 +2,9 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Asap } from 'next/font/google'
 
+import Footer from "./components/footer";
+import Header from "./components/header";
+
 const font = Asap({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -16,7 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={font.className}>
+        <Header/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   )
 }
