@@ -18,15 +18,15 @@ export default function Footer() {
                 <div className="flex flex-col gap-1">
                     <h1 className="text-xl font-medium">Important:</h1>
                     <div className="flex flex-col text-sm items-start w-10">
-                        <a className="cursor-pointer hover:text-zinc-400 transition">Term</a>
+                        <a className="cursor-pointer hover:text-zinc-400 transition">Terms</a>
                         <a className="cursor-pointer hover:text-zinc-400 transition">Security</a>
                     </div>
                 </div>
                 <div>
                     <h1 className="text-white font-medium">About:</h1>
                     <div className="flex flex-col text-sm items-start w-10">
-                        <a className="cursor-pointer hover:text-zinc-400 transition">??</a>
-                        <a className="cursor-pointer hover:text-zinc-400 transition">???</a>
+                        <a className="cursor-pointer hover:text-zinc-400 transition">Blog</a>
+                        <a className="cursor-pointer hover:text-zinc-400 transition">Partnerships</a>
                     </div>
                 </div>
             </div>
