@@ -18,7 +18,7 @@ export default function Cards() {
         <>
         <div className="flex gap-5">
         {images.map((i) => (
-            <section className="h-fit w-fit p-3 border border-zinc-500 rounded-lg flex flex-col items-center gap-2">
+            <section key={i.text} className="h-fit w-fit p-3 border border-zinc-500 rounded-lg flex flex-col items-center gap-2">
                 <Image 
                     src={i.url} 
                     height={200} width={200} 
