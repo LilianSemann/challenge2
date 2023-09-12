@@ -9,7 +9,7 @@ export default function Home() {
         <Cards/>
       </div>
       <main className="w-[65%] p-4 border border-zinc-500 rounded-lg flex">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, illo repudiandae. Autem, rerum, iste eaque ratione in, harum unde voluptas distinctio iure similique rem quo non sint temporibus beatae fugit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
       </main>
     </section>
     </>
