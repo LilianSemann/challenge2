@@ -1,0 +1,24 @@
+Next Atômic Site:
+	- Atômic Power:
+		- Sabe criar componentes? V
+
+		- Sabe exportar, importar e usar componentes? V
+
+		- Sabe reutilizar componentes? V
+
+		- Sabe colocar javascript dentro do HTML? V
+
+		- Sabe criar objetos e pegar suas propriedades? V
+
+		- Sabe passar e utilizar props?
+			 `entende sobre tipos primitivos? V
+
+			 `entende sobre tipos mais complexos? V
+
+		- Sabe criar páginas? V
+
+		- Sabe navegar entre as páginas usando `<Link>`? V
+
+		- Sabe pra que serve e como usar o arquivo layout.tsx? V
+
+	- Fez o deploy com continuous  deployment?
