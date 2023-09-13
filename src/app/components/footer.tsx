@@ -24,8 +24,8 @@ export default function Footer() {
                         <Link className="cursor-pointer hover:text-zinc-400 transition" href="/">Security</Link>
                     </div>
                 </div>
-                <div>
-                    <h1 className="text-white font-medium">About:</h1>
+                <div className="flex flex-col gap-1">
+                    <h1 className="text-xl font-medium">About:</h1>
                     <div className="flex flex-col text-sm items-start w-10">
                         <Link className="cursor-pointer hover:text-zinc-400 transition" href="/">Blog</Link>
                         <Link className="cursor-pointer hover:text-zinc-400 transition" href="/">Partnerships</Link>

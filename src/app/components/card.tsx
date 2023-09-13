@@ -8,7 +8,7 @@ interface CardsProps {
 export default function Card(props: CardsProps) {
 
     return (
-        <section className="p-4 rounded-xl bg-white drop-shadow-md w-44 h-40 flex flex-col gap-4 justify-center items-center hover:translate-y-[-0.5rem] transition duration-300 ease-[cubic-bezier(.34,2,.6,1)]">
+        <section className="p-4 rounded-xl bg-white w-44 h-40 flex flex-col gap-4 justify-center items-center hover:translate-y-[-0.5rem] transition duration-300 ease-[cubic-bezier(.34,2,.6,1)] shadow-lg shadow-black">
             <Image
                 width={50}
                 height={50}
